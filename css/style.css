@@ -194,8 +194,8 @@ body {
   right: 0;
   margin-right: 10px;
 }
-.contact h4 {
-  width: 25px;
+.contact a {
+  font-size: 20px;
   color: var(--myColor);
   text-decoration: none;
 }
@@ -640,6 +640,10 @@ main {
   padding-bottom: 40px;
   filter: grayscale(1);
 }
+.projects__details .projects__content .imgs img:hover {
+  filter: grayscale(0);
+}
+
 .projects__details .projects__content .imgs a {
   text-decoration: none;
 }
